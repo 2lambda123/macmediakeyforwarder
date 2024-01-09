@@ -1,0 +1,56 @@
+repo_name: 2lambda123/macmediakeyforwarder
+report_id: 38124fb82981c08a89adf27038eda4ee
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:55:54+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/2lambda123/macmediakeyforwarder
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/macmediakeyforwarder
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/macmediakeyforwarder/blob/master/.github/workflows/snorkell-auto-documentation.yml
+  detection_source: ".github/workflows/snorkell-auto-documentation.yml"
+  last_updated_by: snorkell-ai[bot]
+  last_updated_on: 2023-12-20 11:14:42.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/macmediakeyforwarder/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Milan Toth
+  last_updated_on: 2017-12-05 16:02:53.000000000 Z
